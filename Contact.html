@@ -1,69 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Pagina Inicial</title>
-    <link rel="stylesheet" href="base.css">
-</head>
-<body>
+    <link rel="stylesheet" href="base.css" />
+  </head>
+  <body>
     <div class="wrapper">
-        <div class="menu">
-            <!-- Aqui vai o seu menu -->
-            <ul>
-                <li><a href="Index.html">Página Principal</a></li>
-                <li><a href="About.html">Sobre a clínica</a></li>
-                <li><a href="Hour.html">Horário de Atendimento</a></li>
-                <li><a href="Contact.html">Contato</a></li>
-            </ul>
+      <div class="menu">
+        <!-- Aqui vai o seu menu -->
+        <ul>
+          <li><a href="Index.html">Página Principal</a></li>
+          <li><a href="About.html">Sobre a clínica</a></li>
+          <li><a href="Hour.html">Horário de Atendimento</a></li>
+          <li><a href="Contact.html">Contato</a></li>
+        </ul>
+      </div>
+
+      <div class="main">
+        <div class="header">
+          <img src="imagens/03.jpg" alt="" width="1000" />
         </div>
 
-        <div class="main">
-            <div class="header">
-                <img src="imagens/03.jpg" alt="" width="1000">
+        <div class="content">
+          <h1>
+            Clínica Veterinária "Veterinários.
+            <span>Médicos com V de Vida</span>"
+          </h1>
+          <h2>Contatos</h2>
+          <label for="">Telefones</label>
+          <ul>
+            <li>(xx) 1236-1236</li>
+            <li>(xx) 4569-4569</li>
+            <li>(xx) 7891-7891</li>
+          </ul>
+          <p>
+            Avenida das Américas, 7707 - 136/137/138 - Barra da Tijuca, Rio de
+            Janeiro - RJ, 22793-081
+          </p>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3672.620049572978!2d-43.388853103210444!3d-23.000995199999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9bdba3a7daeab7%3A0x8681616aa3418e50!2sDog&#39;s%20Vet!5e0!3m2!1spt-BR!2sbr!4v1696792120544!5m2!1spt-BR!2sbr"
+            width="600"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+          <br />
+          <h3>Se preferir preencha o formulário que entramos em contato</h3>
+          <form action="#" onsubmit="alert('enviado');" method="post">
+            <div id="a01">
+              <label for="name">Nome </label><br />
+              <input type="text" />
             </div>
-    
-            <div class="content">
-                <h1>Clínica Veterinária "Veterinários. <span>Médicos com V de Vida</span>"</h1>
-                <h2>Contatos</h2>
-                <label for="">Telefones</label><ul>
-                    <li>(xx) 1236-1236</li>
-                    <li>(xx) 4569-4569</li>
-                    <li>(xx) 7891-7891</li>
-                </ul>
-                <p>Avenida das Américas, 7707 - 136/137/138 - Barra da Tijuca, Rio de Janeiro - RJ, 22793-081</p>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3672.620049572978!2d-43.388853103210444!3d-23.000995199999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9bdba3a7daeab7%3A0x8681616aa3418e50!2sDog&#39;s%20Vet!5e0!3m2!1spt-BR!2sbr!4v1696792120544!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                <br>
-                <h3>Se preferir preencha o formulário que entramos em contato</h3>
-                <form action="#" onsubmit="alert('enviado');" method="post">
-                    <div id="a01">
-                        <label for="name">Nome </label><br>
-                        <input type="text" >
-                    </div>
-                    
-                    <div id="a01">
-                        <label for="mail">Email     </label><br><input type="email">
-                    </div>
-                    
-                    <div>
-                        <label for="Assunto">Assunto </label><br><input type="text">
-                    </div>
-                    
-                    <label for="Mensagem">Mensagem </label><br><textarea name="" id="" cols="30" rows="10"></textarea><br><br>
-                    <button type="reset">Limpar</button>
-                    <button type="submit">Enviar</button>
-                </form>
 
-                
+            <div id="a01">
+              <label for="mail">Email </label><br /><input type="email" />
             </div>
-    
-            <div class="footer">
-                <h3>Contatos</h3>
-                <p>Tel (xx) 1236-1236</p>
-                <p>E-mail: MédicoscomVdeVida@v.br </p>
+
+            <div>
+              <label for="Assunto">Assunto </label><br /><input type="text" />
             </div>
+
+            <label for="Mensagem">Mensagem </label><br /><textarea
+              name=""
+              id=""
+              cols="30"
+              rows="10"
+            ></textarea
+            ><br /><br />
+            <button type="reset">Limpar</button>
+            <button type="submit">Enviar</button>
+          </form>
         </div>
+
+        <div class="footer">
+          <h3>Contatos</h3>
+          <p>Tel (xx) 1236-1236</p>
+          <p>E-mail: MédicoscomVdeVida@v.br</p>
+        </div>
+      </div>
     </div>
-</body>
+  </body>
 </html>
